@@ -127,6 +127,35 @@ main{
     top:5%;
 }
 
+.introducao-text::first-letter{
+    font-size: 28px;
+ }
+ 
+ .def-prof{
+     display: flex;
+     gap:2%;
+     align-items: center;
+     background: yellow;
+ }
+ 
+ .def-prof > p{
+     color:rgb(134, 131, 131)
+ }
+ 
+ #Fari{
+     gap:20%;
+ }
+ .def{
+     border: 1px solid rgba(255, 255, 255, 0.18);
+     background-color: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(13.5px);
+     border-radius:7px;
+     height: 60px;
+     box-shadow:  0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+     color:rgb(80, 76, 76);
+ 
+ }
+
 @media(max-width:800px) {
     #hamburguer{
         display: block;
