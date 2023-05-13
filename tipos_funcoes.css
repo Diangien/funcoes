@@ -71,7 +71,7 @@ header{
     display: flex;
     gap:20px;
     font-size: 20px;
-    transition: all ease .s;
+    transition: all ease .3s;
 }
 
 .menu p{
@@ -86,7 +86,7 @@ header{
 
 .menu a:hover{
     text-decoration: underline;
-    color:yellow;
+    color:rgba(10, 10, 236, 0.781);
 }
 
 #menu-items{
@@ -101,6 +101,11 @@ header{
 
 .menu{
     height: 50px;
+    
+}
+
+.menu-items{
+    position: relative;
 }
 
 .menu #hamburguer{
@@ -218,22 +223,29 @@ main{
         z-index: 998;
         left:262px;
         top:0;
-        width: 400px;
-        height: 100vh;
+        width: 300px;
+        height: 1800px;
         background-color: white;
         padding-top: 100px;
         display: block;
         margin-right: 400px;
         display: none;
+        
     }
 
     .menu ul li a{
         color: black;
+        font-size:1.3em;
+    }
+
+    .menu ul li{
+        padding: 2%;
+        padding-left: 3%;
     }
 
 .menu .menu-check:checked ~ ul{
     display: block;
-    margin-right: -400px;
+    margin-left: -39%;
 }
 
 
